@@ -1,0 +1,46 @@
+.single-game:hover {
+  border-color: #309255;
+}
+
+.single-game {
+  font-family: "CircularStd-Book";
+  margin-top: 30px;
+  border: 1px solid rgba(48, 146, 85, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.single-game .game-image {
+  display: block;
+}
+
+.single-game .game-image img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.single-game .title p {
+  font-family: "CircularStd-Book";
+  text-align: center;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #212832;
+  display: inline-block;
+  line-height: 1.4;
+  margin-bottom: 0 !important;
+}
+
+.single-game .title p:hover {
+  color: #309255;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-game .game-content .title p {
+    text-align: center;
+    font-size: 14px;
+  }
+}

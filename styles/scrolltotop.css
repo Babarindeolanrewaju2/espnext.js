@@ -1,0 +1,21 @@
+.back-to-top {
+  position: fixed;
+  cursor: pointer;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 36px;
+  border-radius: 50%;
+  z-index: 99;
+  text-align: center;
+  display: none;
+  -webkit-box-shadow: 2px 4px 8px rgb(33 40 50 / 15%);
+  box-shadow: 2px 4px 8px rgb(33 40 50 / 15%);
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #fff;
+  background-color: #309255;
+}

@@ -1,0 +1,22 @@
+.sidebar-widget {
+  margin-top: 30px;
+}
+.widget-search {
+  position: relative;
+}
+
+.widget-search input {
+  width: 100%;
+  height: 60px;
+  border: 1px solid rgba(48, 146, 85, 0.2);
+  border-radius: 10px;
+  padding: 0 20px;
+  padding-right: 60px;
+  outline: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-size: 15px;
+  font-weight: 400;
+  color: #52565b;
+}
